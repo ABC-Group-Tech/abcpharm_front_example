@@ -32,7 +32,7 @@ export default function MainV2Page() {
       {/* About Section */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl">
+          <div className="max-w-4xl ml-80">
             <h2 className="text-3xl md:text-4xl font-bold mb-8">About</h2>
             <h3 className="text-2xl md:text-3xl font-bold mb-6 text-primary">글로벌 의약바이오 통합 기업</h3>
             <div className="space-y-4 text-muted-foreground leading-relaxed">
@@ -62,8 +62,8 @@ export default function MainV2Page() {
           />
           <div className="absolute inset-0 bg-black/50" />
         </div>
-        <div className="container mx-auto px-4 relative z-10">
-          <div className="max-w-2xl text-white">
+        <div className="container px-4 relative z-10 mx-auto ml-auto">
+          <div className="max-w-2xl text-white ml-80">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Platform</h2>
             <h3 className="text-2xl md:text-3xl font-bold mb-6">바이오 플랫폼</h3>
             <p className="leading-relaxed mb-6 text-white/90">
@@ -81,7 +81,7 @@ export default function MainV2Page() {
       {/* R&D Section */}
       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl">
+          <div className="max-w-4xl ml-80">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">R&D</h2>
             <h3 className="text-2xl md:text-3xl font-bold mb-12">산학 협력 연구</h3>
             <div className="grid md:grid-cols-2 gap-8 mb-8">
@@ -115,7 +115,7 @@ export default function MainV2Page() {
       {/* Stem Cell Solution Section */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mb-12">
+          <div className="max-w-4xl mb-12 ml-80">
             <h2 className="text-3xl md:text-4xl font-bold mb-8">Stem Cell Solution</h2>
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>ABC PHARM은 혈액, 골수나, 연수조직 등의 현재로 줄기세포를 개발 저장 시켜 수 있는 시설입니다.</p>
@@ -126,13 +126,13 @@ export default function MainV2Page() {
               <p>도성의 현재 제조설비에는 대옥조로 자연해하여 대량의 근조를 수취관품 생산에 생산하나다.</p>
             </div>
           </div>
-          <div className="max-w-5xl mx-auto">
+          <div className="max-w-4xl mx-auto">
             <div className="relative h-[400px] rounded-lg overflow-hidden">
               <Image
                 src="/images/6265e2ed5330d59cef1b1e4869e8d033b8296e4e.png"
                 alt="Stem Cell Research"
                 fill
-                className="object-cover"
+                className="object-cover mx-0 ml-auto"
               />
             </div>
           </div>
@@ -151,7 +151,7 @@ export default function MainV2Page() {
           <div className="absolute inset-0 bg-black/60" />
         </div>
         <div className="container mx-auto px-4 relative z-10">
-          <div className="max-w-3xl text-white">
+          <div className="max-w-3xl text-white ml-80">
             <h3 className="text-2xl md:text-3xl font-bold mb-4">
               ABC PHARM는 신약 개발의 패러다임을 선도하고 있습니다.
             </h3>
